@@ -1,0 +1,2 @@
+# galton-board
+CG Homework
