@@ -10,11 +10,11 @@ public class binSpawner : MonoBehaviour { // 공 바구니 자동 생성기
             float x1 = i * spacing;
             float x2 = -i * spacing;
 
-            Vector3 position1 = new Vector3(x1, -4, 0);
-            Vector3 position2 = new Vector3(x2, -4, 0);
+            Vector3 pos1 = new Vector3(x1, -4, 0);
+            Vector3 pos2 = new Vector3(x2, -4, 0);
 
-            Instantiate(binPrefab, position1, Quaternion.identity, transform);
-            Instantiate(binPrefab, position2, Quaternion.identity, transform);
+            Instantiate(binPrefab, pos1, Quaternion.identity, transform);
+            Instantiate(binPrefab, pos2, Quaternion.identity, transform);
         }
     }
 }

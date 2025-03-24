@@ -10,8 +10,8 @@ public class beadSpawner : MonoBehaviour { // 공 자동 생성기
     }
 
     void beadSpawn() {
-        float randomX = Random.Range(-xRange, xRange); // x = -2 ~ 2 사이 랜덤한 X축 위치에 공 생성
-        Vector3 spawnPosition = new Vector3(randomX, 15, 0);
+        float randX = Random.Range(-xRange, xRange); // -2 <= x <= 2 사이 랜덤한 X축 위치에 공 생성
+        Vector3 spawnPosition = new Vector3(randX, 15, 0);
         Instantiate(beadPrefab, spawnPosition, Quaternion.identity);
     }
 }

@@ -1110,7 +1110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pegPrefab: {fileID: 448262461}
-  referencePeg: {fileID: 448262465}
+  myPeg: {fileID: 448262465}
   rows: 6
   cols: 5
   spacing: 1.4
